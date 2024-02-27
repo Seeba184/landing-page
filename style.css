@@ -33,6 +33,27 @@ a {
     color: #F9FAF8;
 }
 
+.content {
+    display: flex;
+}
+
+.left-content {
+        display: flex;
+}
+
+.left-content p, .image-placeholder {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
 .random{
 
 }
