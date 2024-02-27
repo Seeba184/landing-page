@@ -55,7 +55,22 @@ h1 {
 }
 
 .random{
+    display: flex;
+    flex-direction: column;
+}
 
+.random .random-info {
+    display: flex;
+}
+
+.random-info p {
+    color: #1F2937;
+    font-size: 18px;
+}
+.random h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .quote {
