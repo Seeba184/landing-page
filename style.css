@@ -5,7 +5,32 @@ body {
 }
 
 .container {
+        background-color: #1F2937;
+        display: flex;
+}
 
+.header{
+    display: flex;
+}
+
+.links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.header-logo {
+    margin: 0;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .random{
@@ -22,5 +47,5 @@ body {
 }
 
 .footer {
-    
+    background-color: #1F2937;
 }
