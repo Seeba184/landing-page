@@ -11,6 +11,7 @@ body {
 .container {
         background-color: #1F2937;
         display: flex;
+        flex: 1;
 }
 
 .header {
@@ -65,6 +66,7 @@ h1 {
 .random{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .random .random-info {
@@ -87,6 +89,7 @@ h1 {
 /* Quote */
 .quote {
 display: flex;
+flex: 1;
 background-color: #E5E7EB;
 
 }
@@ -111,6 +114,7 @@ background-color: #E5E7EB;
 /* Call to Action */
 .action {
     display: flex;
+    flex: 1;
     height: 150px;
     width: 1000px;
     background-color: #3882F6;
@@ -137,6 +141,10 @@ background-color: #E5E7EB;
 /* Footer */
 .footer {
     background-color: #1F2937;
+}
+
+.footer p {
+    color: #F9FAF8;
 }
 
 /* Footer */
