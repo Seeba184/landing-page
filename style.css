@@ -4,12 +4,15 @@ body {
     flex-direction: column;
 }
 
+
+
+/* Header */
 .container {
         background-color: #1F2937;
         display: flex;
 }
 
-.header{
+.header {
     display: flex;
 }
 
@@ -53,7 +56,11 @@ h1 {
     font-weight: bold;
     color: #F9FAF8;
 }
+/* Header */
 
+
+
+/* Random */
 .random{
     display: flex;
     flex-direction: column;
@@ -72,16 +79,46 @@ h1 {
     font-weight: bold;
     color: #1F2937;
 }
+/* Random */
 
+
+
+/* Quote */
 .quote {
-
+display: flex;
+background-color: #E5E7EB;
 
 }
 
+.inspiration {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.inspirational-person {
+    font-family: #E5E7EB;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Quote */
+
+
+
+/* Call to Action */
 .action {
 
 }
 
+
+/* Call to Action */
+
+
+
+/* Footer */
 .footer {
     background-color: #1F2937;
 }
+
+/* Footer */
