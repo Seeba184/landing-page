@@ -137,8 +137,12 @@ h1 {
 /* Quote */
 .quote {
 display: flex;
+flex-direction: column;
 background-color: #E5E7EB;
-justify-content: center;
+align-items: center;
+padding: 100px;
+gap: 30px;
+
 }
 
 .inspiration {
@@ -153,6 +157,7 @@ justify-content: center;
     font-family: #E5E7EB;
     font-size: 24px;
     font-weight: bold;
+    margin-left: 650px;
 }
 
 /* Quote */
@@ -160,7 +165,11 @@ justify-content: center;
 
 
 /* Call to Action */
+
 .action {
+    padding: 100px;
+}
+.action2 {
     display: flex;
     height: 150px;
     width: 1000px;
@@ -169,18 +178,25 @@ justify-content: center;
     align-items: center;
     border-radius: 10px;
     margin: auto;
+    justify-content: space-evenly;
 }
 
-.action h4 {
+.left-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-text h4 {
     color: #F9FAF8;
+    margin: 0;
 }
 
-.action p {
+.left-text p {
     color: #E5E7EB;
     font-size: 18px;
 }
 
-.action button {
+.action2 button {
     color: #F9FAF8;
     background-color: #3882F6;
     border: solid #F9FAF8;
