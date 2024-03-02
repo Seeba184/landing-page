@@ -138,7 +138,7 @@ h1 {
 .quote {
 display: flex;
 background-color: #E5E7EB;
-
+justify-content: center;
 }
 
 .inspiration {
@@ -146,9 +146,10 @@ background-color: #E5E7EB;
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+    width: 50%;
 }
 
-.inspirational-person {
+.person {
     font-family: #E5E7EB;
     font-size: 24px;
     font-weight: bold;
