@@ -12,6 +12,7 @@ body {
 .container {
         background-color: #1F2937;
         display: flex;
+        flex: 1;
 }
 
 .header {
@@ -66,6 +67,7 @@ h1 {
 .random{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .random .random-info {
@@ -89,6 +91,7 @@ h1 {
 .quote {
 display: flex;
 background-color: #E5E7EB;
+flex: 1;
 
 }
 
