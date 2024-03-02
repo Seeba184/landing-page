@@ -96,12 +96,14 @@ h1 {
 .random{
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    padding-bottom: 100px
 }
 
 .random .random-info {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
 }
 
 .img-text {
@@ -111,6 +113,7 @@ h1 {
 .random-info p {
     color: #1F2937;
     font-size: 18px;
+    width: 150px;
 }
 .random h2 {
     font-size: 36px;
@@ -119,6 +122,13 @@ h1 {
     text-align: center;
 }
 
+.image {
+    height: 150px;
+    width: 150px;
+    border: solid #3882F6;
+    border-radius: 10px;
+    border-width: 3px;
+}
 
 /* Random */
 
