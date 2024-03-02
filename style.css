@@ -28,7 +28,7 @@ body {
     margin: 0;
     list-style: none;
     gap: 15px;
-    margin-top: 10px
+    margin-top: 20px
 }
 
 
@@ -43,7 +43,7 @@ a {
 
 .header-logo {
     margin: 0;
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -96,13 +96,18 @@ h1 {
 .random{
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 .random .random-info {
     display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
+.img-text {
+    display: flex;
+    flex-direction: column;
+}
 .random-info p {
     color: #1F2937;
     font-size: 18px;
@@ -111,7 +116,10 @@ h1 {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    text-align: center;
 }
+
+
 /* Random */
 
 
@@ -120,7 +128,6 @@ h1 {
 .quote {
 display: flex;
 background-color: #E5E7EB;
-flex: 1;
 
 }
 
