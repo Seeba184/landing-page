@@ -76,6 +76,15 @@ h1 {
     width: 330px;
     margin: 0;
 }
+
+.left-content button {
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 7px 15px;
+    width: 30%;
+    background-color: #3882F6;
+    border: 0;
+}
 /* Header */
 
 
@@ -155,15 +164,15 @@ flex: 1;
     background-color: #3882F6;
     border: solid #F9FAF8;
     border-radius: 5px;
-    padding: 3px 15px
+    padding: 4px 20px;
 
     }
 
-button:hover {
-    color: aqua;
-    cursor: pointer;
+/* button:hover { */
+    /* color: aqua; */
+    /* cursor: pointer; */
     
-}
+/* } */
 /* Call to Action */
 
 
