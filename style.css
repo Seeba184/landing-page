@@ -20,7 +20,7 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
-    gap: 100px;
+    gap: 600px;
 }
 
 .links {
@@ -47,7 +47,6 @@ a {
     margin-top: 15px;
     height: 75px;
     width: 70px;
-    margin-right: 250px;
 }
 /* Header */
 
@@ -56,6 +55,7 @@ a {
 .content {
     display: flex;
     justify-content: space-around;
+    gap: 80px;
     padding: 108px;
     padding-top: 70px;
 }
@@ -63,7 +63,7 @@ a {
 .left-content {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
 }
 
 .left-content p {
@@ -92,6 +92,7 @@ h1 {
 .left-content button {
     border-radius: 5px;
     color: #F9FAF8;
+    font-weight: bold;
     padding: 7px 15px;
     width: 30%;
     background-color: #3882F6;
@@ -203,7 +204,7 @@ gap: 30px;
     border: solid #F9FAF8;
     border-radius: 5px;
     padding: 5px 20px;
-
+    font-weight: bold;
     }
 
 button:hover { 
