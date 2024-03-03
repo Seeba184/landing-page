@@ -63,10 +63,10 @@ a {
 .left-content {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
 }
 
-.left-content p, .image-placeholder {
+.left-content p {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -74,9 +74,11 @@ a {
 .left-content p {
     width: 330px;
 }
-.image-placeholder {
-    padding: 50px 100px;
-    background-color: grey;
+
+.content-image img {
+    margin: 0;
+    height: 300px;
+    width: 750px;
 }
 
 h1 {
